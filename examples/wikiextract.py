@@ -11,7 +11,7 @@ def map(tin, params):
 
 if __name__ == '__main__':
     job = Job().run(input =
-                    ["/Users/pb/code/travolta/examples/data/wikidump.xml"],
+                    ["/Users/pb/code/travolta/examples/data/wikiextract.xml"],
                     map = map,
                     map_input_stream = [wiki_input_stream],
                     required_modules = [('travolta.wiki', '/Users/pb/code/travolta/python')],
